@@ -28,5 +28,10 @@ void game_title(GAME_MODE* mode){
 }
 
 void game_loop(GAME_MODE* mode){
-    go_dungeon();
+    Party monster_party;
+    go_dungeon(&monster_party);
+}
+
+void go_dungeon(Party* party){
+    
 }
