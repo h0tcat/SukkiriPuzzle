@@ -14,11 +14,14 @@ typedef enum{
 //モンスター構造体
 typedef struct
 {
+    char* name;
     int hp;
     int maxhp;
     Element element;
     int offence;
     int defence;
 } Monster;
+
+void attack(Monster* enemy){};
 
 #endif
