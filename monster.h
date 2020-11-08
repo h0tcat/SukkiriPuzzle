@@ -7,8 +7,7 @@ typedef enum{
     WATER=1,
     WIND=2,
     EARTH=3,
-    LIFE=4,
-    EMPTY=5,
+    EMPTY=4,
 }Element;
 
 //モンスター構造体
@@ -22,6 +21,6 @@ typedef struct
     int defence;
 } Monster;
 
-void attack(Monster* enemy){};
+void attack(Monster* enemy,Monster* party){};
 
 #endif
