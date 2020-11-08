@@ -13,4 +13,6 @@ typedef struct{
     
 }Party;
 
+void cure_hp(Monster* monster);)
+
 #endif
